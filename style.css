@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.conteiner_tab{
+    width: 1170px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 50px;
+    border-radius: 10px 0 0 0;
+
+}
+
+.header_1{
+    font-size: 30px;
+    font-weight: 700;
+    border: 1px solid black;
+    height: 125px;
+    padding: 43px 0px;
+}
+
+.tabl{
+    margin-left: 0;
+    height: 40px;
+}
+
+.td_1{
+    width: 200px;
+    border: 1px solid black;
+    text-align: center;   
+}
+
+.td_2{
+    width: 184px;
+    border-bottom: 1px solid black;
+    border-radius: 0 0 0 5px;
+    text-align: center;
+}
+
+.td_3{
+    width: 184px;
+    border-bottom:1px solid black ;
+    text-align: center;
+}
+.content_tab{
+    float: left;
+    margin-right: 28px;
+    margin-left: 100px;
+    
+}
+
+.text_1{
+    width: 570px;
+    font-size: 18px;
+    display: block;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.down{
+    width: 270px;
+    height: 58px;
+    border: #EC7979;
+    background-color:#EC7979; 
+    margin-top: 27px;
+}
+
+.image_1 img{
+    width: 470px;
+    height: 500px;
+    
+    
+}
+
+
+
+
+/* Блок artikul*/
+
+.conteiner {
+    width: 1170px;
+    height: 665px;
+}
+
+.header{
+    width: 1170px;
+    height: 150px;
+}
+
+.h1{
+    font-weight: 400;
+    font-size: 36px;
+    text-align: center;     
+}
+
+.separator{
+    border: 1px solid red;
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    margin-top: 40px;
+    margin-bottom: 110px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    color:rgb(6, 1, 1, 0.5);
+}
+ ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+ }
+ 
+ .vector,.vector1,.vector2 {
+    display: block;
+    height: 100px;
+    width: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 1px solid red;
+    border-radius: 50px;
+    padding: 15px;    
+ }
+ 
+ li:not(:last-child) {
+    margin-right: 30px;
+ }
+
+ li{
+    text-align: center;
+ }
+
+ h2{
+    font-size: 24px;
+ }
+
+ p{
+    font-size: 18px;
+    text-align: center;
+ }
