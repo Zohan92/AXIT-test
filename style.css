@@ -6,45 +6,46 @@
 
 .conteiner_tab{
     width: 1170px;
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
-    border-right: 1px solid black;
-    margin-bottom: 50px;
-    border-radius: 10px 0 0 0;
+    height: 540px;
+    border-left: 2px solid rgb(124, 120, 120);
+    border-bottom: 2px solid rgb(124, 120, 120);  
+}
 
+.list_tab{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0px;
+    margin: 0px;
+    text-align: center;   
+}
+
+.tdl_1, .tdl_2, .tdl_3 {
+    width: 200px;
+    height: 40px;
+    margin: 0px; 
+    font-size: 16px;   
+    padding: 10px;
+}
+
+.tdl_1{
+    border-top: 2px solid  rgb(124, 120, 120);
+    border-right: 2px solid  rgb(124, 120, 120);
+    border-radius: 0px 5px 0px 0px;
+}
+
+.line_black{
+    width: 970px;
+    border: 1px solid rgb(124, 120, 120);
+    margin-right: 0%;
 }
 
 .header_1{
     font-size: 30px;
     font-weight: 700;
-    border: 1px solid black;
     height: 125px;
     padding: 43px 0px;
 }
 
-.tabl{
-    margin-left: 0;
-    height: 40px;
-}
-
-.td_1{
-    width: 200px;
-    border: 1px solid black;
-    text-align: center;   
-}
-
-.td_2{
-    width: 184px;
-    border-bottom: 1px solid black;
-    border-radius: 0 0 0 5px;
-    text-align: center;
-}
-
-.td_3{
-    width: 184px;
-    border-bottom:1px solid black ;
-    text-align: center;
-}
 .content_tab{
     float: left;
     margin-right: 28px;
@@ -69,14 +70,11 @@
 }
 
 .image_1 img{
-    width: 470px;
-    height: 500px;
-    
-    
+   width: 470px;
+   height: 497px;
+   border-right: 2px solid rgb(124, 120, 120);
+  
 }
-
-
-
 
 /* Блок artikul*/
 
@@ -90,17 +88,18 @@
     height: 150px;
 }
 
-.h1{
+.conteiner_header{
     font-weight: 400;
     font-size: 36px;
-    text-align: center;     
+    text-align: center; 
+    padding-top: 50px;    
 }
 
 .separator{
     border: 1px solid red;
     width: 170px;
-    margin-left: auto;
-    margin-right: auto;
+   /* margin-left: auto;
+    margin-right: auto;*/
 }
 
 .text{
@@ -111,7 +110,8 @@
     font-size: 18px;
     color:rgb(6, 1, 1, 0.5);
 }
- ul{
+
+.list_article{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -130,11 +130,11 @@
     padding: 15px;    
  }
  
- li:not(:last-child) {
+ .list-vector:not(:last-child) {
     margin-right: 30px;
  }
 
- li{
+ .list-vector{
     text-align: center;
  }
 
@@ -146,3 +146,88 @@
     font-size: 18px;
     text-align: center;
  }
+
+ /* Блок Pricing  */
+ 
+ .conteiner_pricing{
+    height: 900px; 
+ }
+
+ .header_price{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    padding: 50px 160px 50px 160px;  
+ }
+
+ .line_price{
+    margin-top: 0px;
+    border: 1px solid red;
+    width: 170px;
+ }
+
+ .text_price{
+    font-size: 18px;
+    text-align: center;
+    color: #322e2e2b;
+    margin-top: 50px;
+ }
+ 
+.price_tarif{
+    display: flex;
+    justify-content: space-between;
+}
+
+ .list_tarif_basic,
+ .list_tarif_optima,
+ .list_tarif_Pro{
+    list-style-type: none;
+    display: block;
+    width: 370px;
+    text-align: center;
+}
+
+.list_tarif_basic,
+.list_tarif_Pro{
+    margin-top: 30px;
+}
+
+.list_basic1, .list_optima1, .list_Pro1{
+    background-color: rgb(52, 50, 50);
+    color: white;
+    font-size: 18px;
+    height: 60px;
+    border: 1px solid;
+    padding: 15px 0px;
+}
+
+.list_basic2, .list_optima2, .list_Pro2{
+    background-color: rgb(52, 50, 50);
+    color: white;
+    font-size: 36px;
+    height: 100px;
+    border: 1px solid;
+    padding: 21px 0px;
+}
+
+.list_basic3, .list_optima3, .list_Pro3{
+    background-color: rgb(52, 50, 50);
+    color: white;
+    font-size: 18px;
+    height: 50px;
+    border: 1px solid;
+    padding: 15px 0px;
+}
+
+.list_basic4, .list_basic5, .list_basic6, .list_basic7, .list_basic8, .list_basic9, 
+.list_optima4, .list_optima5, .list_optima6, .list_optima7, .list_optima8, .list_optima9, 
+.list_Pro4, .list_Pro5, .list_Pro6, .list_Pro7, .list_Pro8, .list_Pro9  {
+    font-size: 18px;
+    height: 50px;
+    border: 1px solid rgb(115, 111, 111);
+    padding: 15px 0px;
+}
+
+
