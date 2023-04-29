@@ -1,12 +1,246 @@
+@media  (min-width:1920px) {
+
 *{
     box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 0px;
 }
 
+/*Блок AXIT */
+.conteiner_axit{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.header_axit{
+   background-color: black;
+    width: 100%;
+    height: 75px; 
+    display: flex;
+    justify-content: space-between;   
+}
+
+.list_axit{
+    list-style-type: none;
+    display: flex;
+    color:white;
+    width: 568.4px;
+    line-height: 75px;
+    margin-right: 175px;
+    padding: 0px;
+    margin: 0px;
+    margin-right: 180px;
+}
+
+.image_ax, .image_it{
+    width:52px;
+    height: 32px;
+    margin-top: 21px;      
+}
+
+.image_axti{
+   height: 75px;
+   max-width: 109px;
+    color:black;
+    background-color: black;
+    line-height: 75px;
+    margin-left: 115px;   
+}
+
+.content_axit{
+   width: 100%;
+    height: 951px; 
+    display: flex;
+    filter: brightness(90%)
+    
+}
+
+.content_sample{
+    padding-top: 231px;
+    margin-left: 170px;
+}
+
+.content_logo{
+   margin-bottom: 73px;
+}
+
+.content_info{
+    font-size: 36px;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    width: 100%;
+}
+
+.info_line{
+    border: 1px solid white;
+    width: 170px;
+    margin-top: 55px;
+    margin-left: 0px;
+}
+
+.content_text{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    width: 240px;
+    height: 42px;
+    margin-left: 0px;
+    margin-top: 42px;
+    margin-bottom: 0px;
+}
+
+.button{
+    width: 270px;
+    height: 60px;    
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    margin-top: 42px;
+    color: white;
+    font-size: 18px;   
+}
+
+.button:hover{
+    background-color: #EC7979;
+    cursor: pointer;
+}
+
+
+.promo_tab{
+    width: 470px;
+    height: 450px;   
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-right: 170px;
+    margin-top: 208px;
+
+}
+
+.promo_header{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    height: 90px;
+    width: 100%;
+    line-height: 90px;
+    margin-bottom: 45px;
+}
+
+.promo_color {
+    color: #EC7979;
+}
+
+.ladel_tab_name, 
+.ladel_tab_email, 
+.label_tab_password {
+    margin-left: 50px;
+}
+
+.tab_name{
+    display: block;
+    border: none;
+    border-bottom:  3px solid #BDBDBD ;
+    margin-bottom: 35px;
+    margin-left: 50px;
+    width: 370px;  
+}
+
+.tab_email{
+    display: block;
+    border: none;
+    border-bottom:  3px solid #BDBDBD ;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    width: 370px;  
+    
+}
+
+.tab_password{
+    display: block;
+    border: none;
+    border-bottom:  3px solid #BDBDBD ;
+    margin-left: 50px;
+    width: 370px;  
+}
+
+.promo_button{
+    width:100%;
+    height: 60px;
+    background-color: #EC7979;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 71px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;  
+    overflow: hidden;
+}
+
+.promo_button:hover{
+    background-color: #AB4949;
+    cursor: pointer;
+}
+
+.list_axit li:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+/*Подвал axit*/
+
+.footer_axit{
+    width: 100%;
+    min-height: 140px;
+    background-color:#F8EFEF;
+    position: relative;
+}
+
+.footer_title_name{
+    width: 470px;
+    margin-left: 170px; 
+    display: inline-block;
+}
+
+.footer_name{
+    height: 60px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 18px;
+    
+}
+
+.footer_text{
+    max-width:100%;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 400;
+    color: #86878B;
+    margin-right: 50px;
+}
+
+.footer_info{
+    max-width: 636px;
+    margin-top: 50px;
+    margin-left: auto;
+    display: inline;
+}
+
+.footer_info img:not(:last-child){
+   margin-right: 40px;
+    width: 52px;
+    height: 52px;
+}
+
+
+
+/*Блок TAB*/
 .conteiner_tab{
     width: 1170px;
-    height: 540px;
     border-left: 2px solid rgb(124, 120, 120);
     border-bottom: 2px solid rgb(124, 120, 120);  
 }
@@ -70,21 +304,20 @@
 }
 
 .image_1 img{
-   width: 470px;
-   height: 497px;
-   border-right: 2px solid rgb(124, 120, 120);
+  max-width: 470px;
+  border-right: 2px solid rgb(124, 120, 120);
   
 }
 
 /* Блок artikul*/
 
 .conteiner {
-    width: 1170px;
-    height: 665px;
+  max-width: 1170px;
+   
 }
 
 .header{
-    width: 1170px;
+    max-width: 1170px;
     height: 150px;
 }
 
@@ -150,7 +383,7 @@
  /* Блок Pricing  */
  
  .conteiner_pricing{
-    height: 900px; 
+    width: 100%; 
  }
 
  .header_price{
@@ -229,5 +462,693 @@
     border: 1px solid rgb(115, 111, 111);
     padding: 15px 0px;
 }
+
+/*Блок comment*/
+.conteiner_comment{
+max-width: 1171px;
+ height: 630px; 
+}
+
+.header_comment{
+    width: 100%;
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 150px;   
+}
+
+.commemt_line{
+    border: 1px solid #EC7979;
+    width: 170px;
+}
+
+.comment_text{
+    font-size: 18px;
+    color: #86878B;
+    margin-top: 40px;
+    margin-bottom: 86px;
+}
+
+.comment_user{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.commemt_list{
+    font-size: 18px;
+    background-color: #E2E2E2;
+    width: 370px;
+    height: 180px;
+    margin: 0px; 
+    padding-top: 38px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.commemt_list::after{
+    content:"";
+    position: absolute;
+    background-color: #E2E2E2;
+    width: 30px; 
+    height: 30px;
+    left: 50px; 
+    bottom: -10px;
+    z-index: -1;
+    transform: rotate(45deg);
+}
+
+.icon{
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.icon_list{
+    margin-left: 0px;
+    margin-top: 60px;   
+}
+
+.icon_name{
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 90px;
+    display: block;
+    margin-top: -66px;
+    text-align: center;
+    line-height: 54px;
+}
+
+.prof{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 90px;
+    font-size: 18px;
+    display: block;
+    margin-top: -15px;
+}
+
+/*Блок кнопка */
+
+
+.content_bottom {
+   width: 1510px;
+    height: 442px;
+    margin-left: -170px;
+    filter: brightness(80%);
+    opacity: 0.9;
+    margin-top: 50px;
+
+}
+
+.header_design{
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    line-height: 230px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.line_disign{
+    width: 170px;
+    border: 1px solid white; 
+}
+
+.text_design{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.botton_desing {
+    margin-top: 73px;
+    height: 58px;
+    width: 370px;
+    border: 1px solid white;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 58px;
+    text-align: center;
+}
+
+.conteiner_contact{
+    height: 699px;
+    width: 1170px;
+    margin-bottom: 50px;
+}
+
+.header_contact{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    width: 1170px;
+    height: 150px;
+    font-size: 36px; 
+    font-weight: 400;
+    line-height: 150px;
+    text-align: center;
+}
+
+.line_contact{
+    border: 1px solid red;
+    width: 170px;
+}
+
+.text_contact{  
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.massage_contact{
+    margin-left: 600px;
+}
+
+.line_name{
+    border: 1px solid #BDBDBD;
+    width: 570px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.name_contact, .massage_contact, .mail_contect {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.line_mail{
+    border: 1px solid #BDBDBD;
+    width: 570px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.mail_contact{
+    margin-top: 75px;
+    display:block;
+}
+
+.password_contact{
+    margin-top: 75px;
+    display:block;
+}
+
+.line_password{
+    border: 1px solid #BDBDBD;
+    width: 570px;
+    margin-left: 0px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.line_password_right{
+    border: 1px solid #BDBDBD;
+    margin-left: 24px;
+    width: 570px;
+    display: inline-block;
+    margin-top: 0px;
+}
+
+.botton_massage{
+    height: 58px;
+   width: 370px;
+    background-color: #EC7979;
+    display: block;
+    margin: 50px auto; 
+}
+
+/* Подвал*/
+
+.footer_contact{
+    width: 1510px;
+    height: 164px;
+    background-color: black;
+    margin-left: -170px;
+    padding-top: 40px;  
+}
+
+.footer_image{
+   width: 487px;
+    height: 50px;
+    display: flex;
+}
+
+.footer_data{
+    margin-top: 32px;
+    color: #FFFFFF80;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+}
+
+@media (max-width:1024px)  {
+    
+   /* .header_axit{
+        border:10px solid green;
+    }
+*/
+   .image_axti{
+        margin-left: auto;
+    }
+
+    .content_logo{
+        margin-left: auto;
+        
+    }
+
+    .list_axit{
+        margin-right: 20px;
+       
+    }
+
+    .content_sample{
+       margin-left: 10%;
+    }
+
+    .promo_tab{
+       max-width:398px;
+       margin-right: 20px;
+    }
+
+    .promo_tab {
+    max-width: 400px;
+    height: 450px;   
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    margin-right: 20px;
+    margin-top: 208px;
+
+    }
+
+   .tab_name, .tab_email, .tab_password{
+        width: 299px;
+        margin-right: 50px;
+   }
+   
+   .footer_title_name {
+    margin-left: 16px;
+    max-width: 376px;
+    
+   }
+
+   .footer_info {
+    margin-right: 0px;
+    margin-left: 0px;
+    display: inline;
+    max-width: 630px;
+    
+   }
+
+   .footer_info img:not(:last-child) {
+    margin-right: 0px;
+    width: 52px;
+    height: 52px;
+   }
+   .footer_info img{
+    margin-bottom: 30px;
+   }
+
+/*Блок TAB*/
+.conteiner_tab{
+    width: 100%;
+    
+}
+
+.content_tab{
+   margin-left: 50px; 
+   max-width: 400px;
+   margin-right: 10px;
+}
+
+.header_1{
+    font-size: 24px;
+}
+
+.text_1 {
+    font-size: 14px;
+    max-width: 400px;
+  
+}
+
+.image_1 img {
+  max-width: 327px;
+  margin-left: 415px;
+  display: inline-block;
+  margin-top:-419px;
+
+}
+
+.line_black {
+    max-width: 100%;
+    margin-bottom: 0px;
+}
+
+/*Блок кнопка */
+.content_bottom {
+   width: 100%;
+   margin: 0px;
+}
+
+
+.conteiner_contact{
+    width: 100%;
+}
+
+.header_contact{
+    width: 100%;
+}
+
+.massage_contact{
+   margin-left: 550px;
+}
+
+.line_password{
+    max-width: 300px;
+}
+
+.line_password_right{
+    max-width: 300px;
+}
+
+/* Подвал*/
+
+.footer_contact{
+   width: 100%;
+   margin: 0px;
+}
+
+.footer_image{
+   width: 100%;
+}
+
+}
+
+@media (max-width:768px) {
+
+    /*Блок AXIT */  
+.conteiner_axit {
+    min-width: 320px;
+    height: 1005px;
+    position: relative;
+}
+
+    
+.list_axit {
+    display: none;
+}    
+    
+.image_axti {
+    margin-left: 0px;
+}
+
+.content_sample {
+    padding: 0px;
+}
+
+.content_logo {
+    display: none;
+   
+}
+
+.content_info {
+    margin-top: 84px;
+    text-align: center;
+    margin-bottom: 0px;
+   
+}
+
+.info_line {
+    margin-left: auto;
+    margin-top: 40px;
+
+}
+
+.promo_tab {   
+    display: block; 
+    width: 288px;
+    height: 381px;
+    background-color: #FFFFFF;
+    position: absolute;
+    margin-top: 518px;
+    margin-left: 5%;
+}
+
+.promo_header{
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.ladel_tab_name, 
+.ladel_tab_email, 
+.label_tab_password {
+    margin-left: 20px;
+}
+
+.tab_name,
+.tab_password,
+.tab_email {
+    width: 240px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.promo_button {
+    margin-top: 46px;
+}
+
+/*Подвал axit*/
+
+.footer_title_name{
+    width: 100%;
+    
+}
+
+.footer_name {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0px;
+}
+
+.footer_text{
+    text-align: center;
+    display: block;
+    font-size: 14px;
+}
+
+.footer_info{
+    width: 100%;
+}
+
+.footer_info img:not(:last-child) {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+
+.rss{
+    width: 20px;
+    height: 20px;
+}
+
+/* блок тав*/
+
+.conteiner_tab {
+    width: 100%;
+    border-right: 2px solid rgb(124, 120, 120); 
+}
+
+.tdl_1, .tdl_2, .tdl_3 {
+    font-size: 14px;
+}
+
+.tdl_1 {
+    border-bottom: none;
+}
+
+.header_1 {
+    font-size: 14px;
+}
+
+.text_1 {
+    font-size: 13px;
+    width: 242px;
+}
+
+.image_1{
+    visibility: collapse;
+}
+
+.down {
+    width: 242px;
+}
+
+/*Блок artikul*/
+
+.conteiner {
+    width: 100%;
+}
+
+.conteiner_header {
+    font-size: 18px;
+}
+
+.separator {
+    width: 134px;
+    margin-top: -50px;
+}
+
+.text {
+    font-size: 13px;
+}
+ 
+.list_article {
+    flex-direction: column;
+    width: 100%;
+
+}
+
+/*Блок Pricing*/
+
+
+
+.header_price {
+    font-size: 24px;
+    padding: 50px 0px;
+}
+
+.text_price {
+    font-size: 14px;
+    width: 288px;
+    padding: 0px 16px;
+}
+
+.price_tarif {
+    flex-direction: column;
+}
+
+.header_comment {
+    line-height: normal;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.commemt_line {
+     width: 93px;
+}
+
+.icon_list_davis, .icon_list_cooper {
+    display: none;
+}
+
+.comment_user .commemt_list:nth-child(odd) {
+    display: none;
+}
+ 
+.icon_list_jaydon {
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+/*Блок кнопка */
+
+.content_bottom {
+    width: 100%;
+}
+.header_design {
+    font-size: 24px;
+    line-height: 120px;
+}
+
+.line_contact {
+    width: 93px;
+
+}
+
+.text_design {
+    font-size: 14px;
+}
+
+.botton_desing {
+    width: 287px;
+}
+
+.conteiner_contact {
+    position: relative;
+    height: auto
+    
+}
+
+.header_contact {
+    margin-top: 0px;
+    font-size: 24px;
+    height: 120px;
+}
+
+.line_contact {
+    width: 93px;
+}
+
+.text_contact {
+    font-size: 14px;
+    width: 285px;
+}
+
+.line_name, .line_mail, .line_password  {
+    max-width: 720px;
+    margin-top: 16px;
+    margin-left: auto;
+}
+
+.line_password_right {
+    display: none;
+}
+
+.massage_contact {
+    margin-left: auto;
+    display: block;
+    position: absolute;
+    margin-top: 287px;
+    border-bottom: 1px solid #BDBDBD;
+    height: 182px;
+    min-width: 320px;
+}
+
+.botton_massage {
+    margin-top: 275px;
+    width: 288px;
+}
+
+
+.footer_image {
+   height: auto;
+}
+
+
+
+
+
+}
+
+
+
+
+
 
 
